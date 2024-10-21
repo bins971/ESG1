@@ -1,13 +1,9 @@
-import { useState } from 'react'
+import Login from "./pages/Login";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
-      <p className="text-cyan-700 text-2xl font-bold">Good morning.</p>
+      <Login />
     </>
   )
 }
-
-export default App
